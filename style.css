@@ -1,0 +1,29 @@
+html, body {
+  background-color: blueviolet;
+  height: 100%;
+  width: 100%;
+}
+#Pricing
+{
+  margin-top: 60px;
+  width: 700px;
+  float: center;
+  margin-left:20%;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  background-color: #ccc
+}
+
+#Pricing #Tenor, #Pricing #Bass, #Pricing #Valve
+{
+  display: flex;
+  flex-direction: column;
+  background-color: orange;
+  align-item: center;
+  text-align: center;
+  width: calc(90%/3);
+  margin: 10px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+}
